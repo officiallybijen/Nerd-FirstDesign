@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body {
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url("font/BebasNeue-Regular.ttf");
+    }
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('font/ProximaNova-Regular.otf');
+}
+.main {
+    background-color: #A7D1EF;
+    background-image: url("img/photo-hero.png"), url("img/img1.png");
+    background-repeat: no-repeat,no-repeat;
+    background-position: right 80px bottom -3% ,right bottom;
+    background-size: 47%,50%;
+}
+
+.content{
+    padding-left: 77px;  
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.heading{
+    padding-top: 170px;
+    line-height: 80px;
+    font-size: 110px;
+    line-height: 68px;
+    color: #353B7D;
+
+}
+
+.sub-heading{
+    width: 488.32px;
+    height: 204px;
+    margin-top: 71px;
+    font-size: 72px;
+    line-height: 68px;
+    color: #FFFFFF;
+}
+
+.msg , .msg2{
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 48px;
+    color: #FFFFFF;
+    font-family: 'Proxima Nova';
+    width: 550px;
+}
+.msg2{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.brand-name{
+    color: #F3453B;
+    margin-left: 5px;
+}
+
+.tap{
+    margin-left: 5px;
+}
